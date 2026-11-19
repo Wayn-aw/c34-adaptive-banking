@@ -1,0 +1,7 @@
+{
+  "liveServer.settings.port": 5500,
+  "liveServer.settings.root": "/src",
+  "liveServer.settings.host": "0.0.0.0",
+  "editor.formatOnSave": false,
+  "files.exclude": { "**/.DS_Store": true }
+}

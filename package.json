@@ -1,0 +1,17 @@
+{
+  "name": "adaptive-banking-prototype",
+  "version": "4.4.0",
+  "private": true,
+  "description": "Student concept prototype for the OCBC Innovation Challenge PS4. Synthetic data only. Not an OCBC product.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "node scripts/build.js",
+    "pretest": "node scripts/build.js",
+    "test": "node tests/regression.test.js && node tests/layout.test.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  },
+  "engines": { "node": ">=18" }
+}

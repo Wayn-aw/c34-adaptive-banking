@@ -1,0 +1,7 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Start prototype server", "type": "shell", "command": "node server.js", "isBackground": true,
+      "problemMatcher": { "pattern": { "regexp": "^$" }, "background": { "activatesBeginsPattern": "Adaptive Banking is running", "beginsPattern": "Adaptive Banking is running", "endsPattern": "Stop with Ctrl" } } }
+  ]
+}
